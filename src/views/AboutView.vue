@@ -5,7 +5,7 @@
 			<transition v-on:before-enter="beforeEnter" v-on:enter="enter" v-on:leave="leave" v-bind:css="false">
 				<h1 v-if="show">Minhas Experiências</h1>
 			</transition>
-			<button class="button-history" @click="stopAnimation">{{ animation ? 'Parar' : 'Ativar' }} Parar Animacação</button>
+			<button class="button-history" @click="stopAnimation">{{ animation ? 'Parar' : 'Ativar' }} Animacação</button>
 		</div>
 
 		<section class="sobre-mim">

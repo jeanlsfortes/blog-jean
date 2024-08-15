@@ -9,7 +9,7 @@
                 v-bind:css="false">
 				<h1 :style="{ fontSize: fontSize, color: collor }" class="shining-text" v-if="show">{{ text }}</h1>
 			</transition>
-			<button v-if="activeButton" class="button-history" @click="stopAnimation">{{ animation ? 'Parar' : 'Ativar' }} Parar Animação</button>
+			<button v-if="activeButton" class="button-history" @click="stopAnimation">{{ animation ? 'Parar' : 'Ativar' }} Animação</button>
 		</div>
 	</main>
 </template>
