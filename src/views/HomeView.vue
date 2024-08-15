@@ -15,7 +15,7 @@
       <div class="home-text">
         <h2>Olá mundo</h2>
         <br>
-        <P>Sou Jean Lucas Solano Fortes, graduando em Ciências da Computação e desenvolvedor apaixonado por Java, C#, Vue, e React. Tenho uma curiosidade insaciável e adoro resolver problemas complexos, sempre com uma abordagem colaborativa em equipe. Sou entusiasta de novas tecnologias e soluções inovadoras, e estou constantemente em busca de aprimorar minhas habilidades. Minha dedicação é voltada para alcançar os melhores resultados em cada projeto que assumo, utilizando meu conhecimento em tecnologias modernas para criar soluções robustas e eficientes. Estou sempre estudando para me manter atualizado e expandir meu domínio técnico, buscando não apenas atender, mas superar as expectativas em meus objetivos pessoais e profissionais.</P>
+        <P>Sou Jean Lucas Solano Fortes, graduado em Ciências da Computação e desenvolvedor apaixonado por Java, C#, Vue, e React. Tenho uma curiosidade insaciável e adoro resolver problemas complexos, sempre com uma abordagem colaborativa em equipe. Sou entusiasta de novas tecnologias e soluções inovadoras, e estou constantemente em busca de aprimorar minhas habilidades. Minha dedicação é voltada para alcançar os melhores resultados em cada projeto que assumo, utilizando meu conhecimento em tecnologias modernas para criar soluções robustas e eficientes. Estou sempre estudando para me manter atualizado e expandir meu domínio técnico, buscando não apenas atender, mas superar as expectativas em meus objetivos pessoais e profissionais.</P>
       </div>
       <div class="home-text">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
