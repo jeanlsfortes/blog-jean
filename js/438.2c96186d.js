@@ -1,2 +1,0 @@
-"use strict";(self["webpackChunkblog_jean"]=self["webpackChunkblog_jean"]||[]).push([[438],{2438:function(n,o,e){e.r(o),e.d(o,{default:function(){return d}});var r=e(6768);const a={id:"about-page"},u=(0,r.Lk)("h1",null,"project",-1),t=(0,r.Lk)("p",null,"Vou adicionar todos os projetos na próxima versão",-1),s=[u,t];function c(n,o){return(0,r.uX)(),(0,r.CE)("main",a,s)}var i=e(1241);const l={},p=(0,i.A)(l,[["render",c]]);var d=p}}]);
-//# sourceMappingURL=438.2c96186d.js.map
