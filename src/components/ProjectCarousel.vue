@@ -15,13 +15,15 @@
     <div v-if="currentProject">
       <img :src="currentProject.imagem" alt="Imagem do projeto" class="project-image" />
       <h2>{{ currentProject.titulo }}</h2>
-      <h4>{{ currentProject.anoCriacao }}</h4>
-      <p style="text-align: justify;" v-html="currentProject.descricao"></p> 
+      <h4>Produzido em {{ currentProject.anoCriacao }}</h4>
+      <br>
+      <h4>Codificação e documentação</h4>
       <div class="project-links">
         <a v-for="link in currentProject.links" :key="link.text" :href="link.link" target="_blank">
           {{ link.text }}
         </a>
       </div>
+      <p style="text-align: justify;" v-html="currentProject.descricao"></p> 
     </div>
     
     <div class="buttons">

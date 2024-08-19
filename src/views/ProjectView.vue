@@ -11,7 +11,7 @@
 
 <script>
 import MyProjects from '../components/MyProjects.vue';
-import space from '../assets/space.mp4';
+import universo from '../assets/universo.mp4';
 
 export default {
 	components: {
@@ -19,7 +19,7 @@ export default {
 	},
 	data() {
 		return {
-			space: space,
+			space: universo,
 			show: true,
 		};
 	},

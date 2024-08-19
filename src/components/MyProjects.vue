@@ -1,6 +1,6 @@
 <template>
     <div style="display: flex; justify-content: center;">
-        <button class="button-projects"  style="font-size: 3.8rem;" @click="show = !show">Meus Projetos</button>
+        <button class="button-projects"  style="font-size: 3.8rem;" @click="show = !show">PROJETOS</button>
     </div>
     <Transition :duration="550" name="nested">
       <div v-if="show" class="outer">
@@ -37,7 +37,7 @@ export default {
             { text: 'Live Demo', link: 'https://jeanlsfortes.github.io/blog-jean/' }
           ],
           titulo: 'Blog Pessoal',
-          anoCriacao: '2024',
+          anoCriacao: 'agosto 2024',
           descricao:  `<h1>My Blog</h1>
             É um blog pessoal desenvolvido com <strong>Vue.js</strong> que serve como um portfólio interativo para compartilhar as experiências, projetos e certificações de um desenvolvedor. Este blog é uma plataforma dinâmica e moderna onde o autor pode documentar sua jornada profissional, destacando suas habilidades e conquistas.</p>
             <br>
@@ -56,8 +56,7 @@ export default {
                 <li><strong>Portfólio de Trabalhos</strong>: Uma seção dedicada para exibir os projetos desenvolvidos, com descrições detalhadas, tecnologias utilizadas e links para repositórios ou demonstrações ao vivo.</li>
                 <li><strong>Certificações</strong>: Uma área onde o desenvolvedor pode listar suas certificações, cursos concluídos e outras qualificações relevantes, demonstrando seu compromisso com o aprendizado contínuo.</li>
                 <li><strong>Blog de Artigos Técnicos</strong>: O desenvolvedor pode publicar artigos sobre temas técnicos, tutoriais e insights da indústria, contribuindo para a comunidade de desenvolvedores e compartilhando seu conhecimento.</li>
-                <li><strong>Interface Responsiva</strong>: Desenvolvido com Vue.js, o blog é adaptável a diferentes dispositivos, proporcionando uma experiência consistente em desktops, tablets e smartphones.</li>
-            </ul>`
+                <li><strong>Interface Responsiva</strong>: Desenvolvido com Vue.js, o blog é adaptável a diferentes dispositivos, proporcionando uma experiência consistente em desktops, tablets e smartphones.</li></ul>`
         },
         {
           imagem: net8,
@@ -65,7 +64,7 @@ export default {
             { text: 'GitHub', link: 'https://github.com/jeanlsfortes/Catalogo'}
           ],
           titulo: 'Catálogo de Produtos - API',
-          anoCriacao: '2024',
+          anoCriacao: 'julho 2024',
           descricao: `<h1>API RESTful com .NET 8 e Testes Unitários</h1>
                       <br>
                       <p>Este projeto foi desenvolvido como parte de um curso que aborda os principais recursos para a criação de APIs REST na plataforma .NET utilizando o <strong>ASP.NET Core</strong>. O projeto explora conceitos fundamentais e avançados na construção de Web APIs robustas e escaláveis.</p>
@@ -101,8 +100,7 @@ export default {
                           <li><strong>Testes de Controllers</strong>: Testes focados nos controllers da API foram implementados para verificar se as rotas e ações estão funcionando corretamente, incluindo testes de cenários de sucesso e de erro.</li>
                           <li><strong>Testes de Repositórios</strong>: Os repositórios foram testados para garantir que as operações de acesso a dados funcionem conforme o esperado, assegurando a integridade das transações.</li>
                           <li><strong>Testes de Serviços</strong>: Os serviços, que encapsulam a lógica de negócios, também foram testados para validar sua funcionalidade e garantir que as regras de negócio sejam aplicadas corretamente.</li>
-                      </ul>
-                      <br>`
+                      </ul><br>`
         },
         {
           imagem: tarefasCRUD,
@@ -160,11 +158,11 @@ export default {
         {
           imagem: biblioteca,
           links: [
-            { text: 'GitHub', link: 'https://github.com/jeanlsfortes/Entrega/settings' },
+            { text: 'GitHub', link: 'https://github.com/jeanlsfortes/Entrega/' },
             { text: 'Figma', link: 'https://www.figma.com/proto/3lo7TIja6hDdFJfDYysM8J/Prot%C3%B3tipos-de-alto-n%C3%ADvel--Livraria-Bora-Ler-Jorgin?node-id=34-4&starting-point-node-id=34%3A4&t=S4TZ5Mh0gjpj5ZPl-1' }
           ],
-          titulo: 'istema de Gestão de Biblioteca',
-          anoCriacao: 'Setembro de 2022',
+          titulo: 'Sistema de Gestão de Biblioteca',
+          anoCriacao: 'setembro de 2022',
           descricao: `<h1>Sistema de Gestão de Biblioteca</h1>
                     <br>
                     <p>Este projeto foi desenvolvido voluntariamente para a <strong>Biblioteca Municipal Raul Brandão</strong>. Embora apenas o início do projeto tenha sido disponibilizado, ele foi entregue e atualmente está em uso na biblioteca, facilitando a gestão de livros e usuários.</p>
@@ -206,7 +204,7 @@ export default {
           { text: 'Figma', link: 'https://www.figma.com/community/file/1169028343875283461' },
           ],
           titulo: 'NLW Copa do Mundo',
-          anoCriacao: 'Novembro de 2022',
+          anoCriacao: 'novembro de 2022',
           descricao:  `<h1>NLW Copa do Mundo</h1>
             <div align="center">
                 <img src="https://img.shields.io/static/v1?label=NLW&message=10&color=F7DD43&labelColor=202024" alt="NLW 10 - Copa" />
@@ -262,7 +260,6 @@ export default {
                 </a>
             </div>`
         },
-
         {
           imagem: dsMove,
           links: [
@@ -270,7 +267,7 @@ export default {
             { text: 'GitHub', link: 'https://github.com/jeanlsfortes/Projeto-Dsmovie/tree/main/frontend' },
           ],
           titulo: 'DSMovie',
-          anoCriacao: 'Jan 2022',
+          anoCriacao: 'janeiro 2022',
           descricao: `  <h1>DSMove</h1>
                         <br>
                         <p><strong>DSMove</strong> é uma aplicação inovadora desenvolvida com <strong>React</strong> no Frontend e <strong>Spring</strong> no Backend. Esta plataforma permite aos usuários avaliar e comentar sobre uma vasta seleção de filmes. Com uma interface intuitiva e responsiva, os usuários podem facilmente navegar, buscar e avaliar seus filmes favoritos, contribuindo para uma comunidade engajada e apaixonada por cinema.</p>
