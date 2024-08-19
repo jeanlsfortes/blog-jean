@@ -8,14 +8,12 @@
 			<button class="button-history" @click="stopAnimation">{{ animation ? 'Parar' : 'Ativar' }} Animacação</button>
 		</div>
 
-		<section class="sobre-mim">
-			<AboutMe></AboutMe>
-		</section>
+		<AboutMe/>
 	</main>
 </template>
 
 <script>
-import AboutMe from '../components/AboutMe/AboutMe.vue'
+import AboutMe from '../components/AboutMe.vue'
 import Velocity from 'velocity-animate';
 
 export default {

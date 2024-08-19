@@ -26,12 +26,12 @@ import AppSidebar from './components/AppSidebar.vue'
 }
 
 .theme-dark {
-  --primary: rgb(155, 33, 54);
-  --primary-alt: #a93e3e;
-  --grey: #702626;
-  --dark: #060708;
+  --primary: rgb(189, 62, 221);
+  --primary-alt: #7359e7;
+  --grey: #6812d8;
+  --dark: #6812d8;
   --dark-alt: #08090a;
-  --light: #8b6262;
+  --light: #020202;
   --sidebar-width: 300px;
   --boryColor: #f1f5f9;
   --text-color: #ffffff;
@@ -49,7 +49,6 @@ body {
   	color: var(--text-color);
 }
 
-/* CSS */
 button {
   background-color: #111827;
   border: 1px solid transparent;

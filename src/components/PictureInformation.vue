@@ -63,28 +63,6 @@ export default {
 }
 
 .picture-description {
-    color: #434343;
     text-align: center;
 }
-/* 
-@media screen and (max-width: 1170px) {
-    #picturees {
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    .picture {
-        width: calc(50% - 12px);
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .picture {
-        width: 100%;
-    }
-
-    #menu .section-subtitle {
-        text-align: center;
-    }
-} */
 </style>

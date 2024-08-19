@@ -7,7 +7,7 @@
 </template>
 
 <script>
-import Certificates from '../components/Certificates/Certificates.vue'
+import Certificates from '../components/Certificates.vue'
 import cursoSantader from '../assets/cursoSantader.jpg'
 import diploma from '../assets/diploma.jpg'
 
